@@ -1,0 +1,53 @@
+.section{
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px
+}
+
+.section__header{
+    margin: 0px; 
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+    font-size: 20px;
+}
+
+.section__list{
+    list-style: none;
+    padding: 0; 
+    text-align: left;
+}
+
+.section__item{
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+    margin: 0 15px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+   
+}
+ .section__button{
+     margin: 0 10px;
+     border: none;
+     width: 30px;
+     height: 30px;
+     padding: 5px;
+ }
+
+ .section__button--done{
+     background-color: green;
+     color: #fff;
+ }
+
+ .section__button--remove{
+     background-color: red;
+     color: #fff;
+ }
+
+ .section__span {
+    line-height: 1.8;
+    
+ }
+
+ .section__span--done{
+    text-decoration: line-through;
+ }
