@@ -10,9 +10,11 @@
         }, 
     ]
 
-    const onFormSubmit = (event) => {
-        event.preventDefault(); 
-        
+    const addNewTask = (newTaskContent) => {
+        tasks.push({
+            content: newTaskContent,
+        });
+        render();
     }
 
     const render = () => {
@@ -29,6 +31,20 @@
 
         document.querySelector(".js-tasksList").innerHTML = taskContent;
     }
+
+    const onFormSubmit = (event) => {
+        event.preventDefault(); 
+
+        const newTaskContent = document.querySelector(".js-input"); 
+        const newTask = newTaskContent.value.trim(); 
+        
+        if (newTask !== "") {
+            addNewTask(newTask); 
+            newTaskContent.value = ""; 
+        }
+
+        newTaskContent.focus();
+    };
 
     const init = () => {
         const form = document.querySelector(".js-form"); 
