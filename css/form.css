@@ -20,6 +20,15 @@
     color: #fff;
     border: none;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.form__button:hover{
+    background-color: rgb(1, 141, 141);
+}
+
+.form__button:active{
+    background-color: rgb(3, 170, 170);
 }
 
 @media (max-width: 500px) {
