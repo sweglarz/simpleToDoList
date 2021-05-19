@@ -1,21 +1,12 @@
 {
-    const tasks =[
-        {
-            content: "pogłaskać kota",
-            done: true,
-        },
-        {
-            content: "stworzyć listę zadań", 
-            done: false, 
-        }, 
-    ]
+    const tasks =[]
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
             content: newTaskContent,
         });
         render();
-    }
+    };
 
     const removeTask = (index) => {
         tasks.splice(index, 1); 
@@ -25,7 +16,7 @@
     const toggleTaskDone = (index) => {
         tasks[index].done = !tasks[index].done;
         render(); 
-    }
+    };
 
     const render = () => {
         let taskContent = ""; 
