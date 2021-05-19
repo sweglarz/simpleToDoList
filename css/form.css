@@ -5,7 +5,6 @@
 .form__label{
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
 }
 .form__input{
     padding: 10px;
@@ -22,3 +21,13 @@
     border: none;
     font-size: 16px;
 }
+
+@media (max-width: 500px) {
+    .form__label{
+        flex-wrap: wrap;
+    }
+
+    .form__button{
+        flex-basis: 100%;
+    }
+  }
