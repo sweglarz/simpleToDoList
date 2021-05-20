@@ -8,7 +8,7 @@
 ![Simple to-do app.](https://github.com/sweglarz/simpleToDoList/blob/main/images/todolist.gif?raw=true)
 
 ## Demo
-Click here to open it live -> [https://sweglarz.github.io/simpleToDoList/](https://sweglarz.github.io/Currency_Calculator2021/)
+Click here to open it live -> [https://sweglarz.github.io/simpleToDoList/](https://sweglarz.github.io/simpleToDoList/)
 
 **Use this app in a way that suits you!**
 
