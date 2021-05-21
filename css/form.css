@@ -12,6 +12,7 @@
     margin: 10px;
     flex-grow: 1;
     font-size: 16px;
+    border: 2px solid #eee;
 }
 
 .form__button {
