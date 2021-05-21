@@ -1,5 +1,5 @@
 {
-    const tasks =[]
+    const tasks = []
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -23,7 +23,7 @@
 
         for (const task of tasks){
             taskContent += 
-            `<li class="section__item js-tasksList">
+            `<li class="section__item">
             <button class="section__button section__button--done js-toggleDone">${task.done ? "✔" : ""}</button>
             <span class="section__span ${task.done ? "section__span--done" : ""}">${task.content}</span>
             <button class="section__button section__button--remove js-removeButton">🗑️</button>
