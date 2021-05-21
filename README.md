@@ -5,10 +5,10 @@
 
 **Look below how it works** 
 
-![Simple to-do app.](https://github.com/sweglarz/simpleToDoList/blob/main/images/todolist.gif?raw=true)
+![Simple to-do app.](https://github.com/sweglarz/simpleToDoList/blob/main/images/todolistnew.gif?raw=true)
 
 ## Demo
-Click here to open it live -> [https://sweglarz.github.io/simpleToDoList/](https://sweglarz.github.io/simpleToDoList/)
+Click here to open it live -> [To do list - live version](https://sweglarz.github.io/simpleToDoList/)
 
 **Use this app in a way that suits you!**
 
@@ -16,3 +16,5 @@ Click here to open it live -> [https://sweglarz.github.io/simpleToDoList/](https
  - HTML
  - BEM Methodology
  - ES6+
+ - Flex
+ - Grid
