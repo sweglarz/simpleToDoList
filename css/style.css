@@ -1,14 +1,13 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 
 *, ::after, ::before {
     box-sizing: inherit;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: #eee;
 }
