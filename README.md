@@ -5,7 +5,7 @@
 
 **Look below how it works** 
 
-![Simple to-do app.](https://github.com/sweglarz/simpleToDoList/blob/main/images/todolistnew.gif?raw=true)
+![Simple to-do app.](https://github.com/sweglarz/simpleToDoList/blob/main/images/newreadme.gif)
 
 ## Demo
 Click here to open it live -> [To do list - live version](https://sweglarz.github.io/simpleToDoList/)
