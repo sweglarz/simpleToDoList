@@ -1,0 +1,46 @@
+.buttons{
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.buttons__button{
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: teal;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.buttons__button:hover{
+    color: rgb(1, 160, 160);
+}
+
+.buttons__button:active{
+    color: rgb(0, 196, 196);
+}
+
+.buttons__button:disabled{
+    color: #ccc;
+    cursor: inherit;
+}
+
+@media(max-width: 500px){
+    .section__headerBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buttons__button{
+        margin: 10px 0;
+    }
+}
