@@ -11,6 +11,10 @@
     font-size: 20px;
 }
 
+.section__header--borderless{
+    border-bottom: none;
+}
+
 .section__list {
     list-style: none;
     padding: 0;
@@ -23,6 +27,11 @@
     margin: 25px 15px 0 15px;
     display: grid;
     grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+.section__item--hidden {
+    display: none;
 }
 
 .section__button {
@@ -32,6 +41,7 @@
     height: 30px;
     padding: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .section__button--done {
@@ -67,4 +77,11 @@
 
 .section__span--done {
     text-decoration: line-through;
+}
+
+.section__headerBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #eee;
 }
